@@ -1,0 +1,16 @@
+<component name="org.nuxeo.template.rendering.contrib.extendedcore">
+
+  <extension target="org.nuxeo.template.service.TemplateProcessorComponent" point="contextExtension">
+
+    <documentation>Adds extended repository features in the context
+      <ul>
+        <li>extendedcore.getParents()</li>
+      </ul>
+    </documentation>
+
+    <contextFactory name="extendedcore" class="org.nuxeo.template.context.extensions.ExtendedCoreExtensionFactory">
+    </contextFactory>
+
+  </extension>
+
+</component>
